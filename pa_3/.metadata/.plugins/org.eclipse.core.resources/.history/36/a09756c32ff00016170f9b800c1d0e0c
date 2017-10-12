@@ -1,0 +1,89 @@
+/*
+File: Sparse.java
+Class: CMPS 101
+Assignment: PA3
+Student: Arseniy Khmelidze (akhmelid)
+Date created: 02/04/17 
+*/
+
+import java.io.*;
+import java.util.Scanner;
+
+public class Sparse 
+{
+
+    public static void main(String[] args) throws IOException 
+    {
+
+        if (args.length != 2)
+            System.err.println("You must pass two arguments. The input file name and the output file name.");
+
+        String inFileName = String.format("%s",args[0]);
+        String outputFileName = String.format("%s",args[1]);
+
+        Scanner in = new Scanner(new File(inputFileName));
+
+        int matrixSize = in.nextInt();
+        Matrix A = new Matrix(matrixSize);
+        Matrix B = new Matrix(matrixSize);
+        int nnzA = in.nextInt();
+        int nnzB = in.nextInt();
+
+        while (in.hasNext())
+        {
+            for(int i = 0; i < nnzA; i++)
+            {
+                int row = in.nextInt();
+                int col = in.nextInt();
+                double val = in.nextDouble();
+                A.changeEntry(row,col,val);
+            }
+
+            for(int i = 0; i < nnzB; i++)
+            {
+                int row = in.nextInt();
+                int col = in.nextInt();
+                double val = in.nextDouble();
+                B.changeEntry(row,col,val);
+            }
+
+        }
+
+        PrintWriter outFile = new PrintWriter(outputFileName);
+        
+        outFile.println("Received data");
+        outFile.println();
+        
+        outFile.println("Total # of elements in Matrix A: " + nnzA);
+        outFile.println(A);
+        
+        outFile.println("Total # of elements in Matrix B: " + nnzB);
+        outFile.println(B);
+        
+        outFile.println("A + A =");
+        outFile.println(A.add(A));
+        
+        outFile.println("A - A =");
+        outFile.println(A.sub(A));
+        
+        outFile.println("1.5 * A =");
+        outFile.println(A.scalarMult(1.5));
+        
+        outFile.println("Transpose of Matrix A =");
+        outFile.println(A.transpose());
+        
+        outFile.println("A + B =");
+        outFile.println(A.add(B));
+
+        outFile.println("B - A =");
+        outFile.println(B.sub(A));
+
+        outFile.println("A * B =");
+        outFile.println(A.mult(B));
+        
+        outFile.println("B * B =");
+        outFile.println(B.mult(B));
+        
+        outFile.close();
+    }
+}

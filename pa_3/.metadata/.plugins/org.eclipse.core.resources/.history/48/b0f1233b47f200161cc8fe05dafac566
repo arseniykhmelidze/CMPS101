@@ -1,0 +1,17 @@
+Class: CMPS 101
+Instructor: Prof. Patrick Tantalo
+Assignment: PA3
+Student: Arseniy Khmelidze (akhmelid)
+Date created: 02/05/17
+Copyright © 2017 Arseniy Khmelidze. All rights reserved.
+
+Brief Description of the assignment: The main goal of the project is to create a calculator for performing matrix operations that exploits the (expected) sparseness of it’s matrix operands. An n x n square matrix is said to be sparse if the number of non-zero entries (aka NNZ) is small compared to the total number of entries, (𝑛^2). The result is a Java program capable of performing fast matrix operations, even on very large matrices. In order to check the correctness, two test files are created to check List file and the Matrix file. 
+
+Files Submitted:
+1) List.java : This module will be a bi-directional queue that includes a “cursor” to be used for iteration between the elements in the list. Logic of the functions changed to satisfy the requirements and make them more efficient 
+2) ListTest.java : Checking if the List.java algorithm is working to satisfy the requirements
+3) Matrix.java : The algorithm will process various mathematical operations with a matrix of any size that are going to be declared in Sparse.java and MatrixTest.java
+4) MatrixTest.java : Checking if the Matrix.java algorithm is working according to satisfy the requirements
+5) Sparse.java : The top level client module for this project. Your program will read an input file, initialize and build the Array of Lists representation of the matrices A and B, then calculate and print the following matrices to the output file: A, B, (1.5)*𝐴, 𝐴 + 𝐵, 𝐴 + 𝐴, 𝐵 − 𝐴, 𝐴 − 𝐴, 𝐴𝑇, 𝐴𝐵 and 𝐵2. The output file format is illustrated by the following example, which corresponds to the above input file.
+6) Makefile : file that creates an executable jar file called Sparse, which is the main program for this project 
+7) README : Current file. Brief details about the project and its creator  

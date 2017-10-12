@@ -1,0 +1,22 @@
+Class: CMPS 101
+Instructor: Prof. Patrick Tantalo
+Assignment: PA4
+Student: Arseniy Khmelidze (akhmelid)
+Date created: 02/28/17
+Copyright © 2017 Arseniy Khmelidze. All rights reserved.
+
+Brief Description of the assignment: The purpose of this assignment is to implement a Graph ADT and associated algorithms in C. 
+This project will utilize the List ADT from PA2 by adding new features such as a BFS algorithm with the Graph. 
+
+
+Files Submitted:
+1) List.c : This module will be a bi-directional queue that includes a “cursor” to be used for iteration between the elements in the list. Explicit algorithm of every f-n from List.h
+2) List.h : Header file for List.c. Module with all List functions in implicit form
+3) Graph.c : The module creates a Graph using the BFS algorithm. Represented as an array of Lists
+4) Graph.h : Header file for Graph.c. Module with all List functions in implicit form
+5) GraphTest.c : Test file for the Graph ADT
+6) FindPath.c : Client program for Graph.h
+5) Makefile: file that creates an executable jar file called FindPath. Unchanged 
+6) README: Current file. Brief details about the project and its creator. Edited by the programmer
+
+UPD: The application was checked for memory leaks, none detected.

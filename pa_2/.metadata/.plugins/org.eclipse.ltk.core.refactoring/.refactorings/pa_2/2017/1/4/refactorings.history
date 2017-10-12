@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;in1, in2, in3.txt, Makefile, output, README&apos; to &apos;pa_2&apos;" description="Move 6 resources to &apos;pa_2&apos;" destination="/pa_2" element1="/pa2/in1" element2="/pa2/in2" element3="/pa2/in3.txt" element4="/pa2/Makefile" element5="/pa2/output" element6="/pa2/README" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="6" stamp="1485578780348" updateReferences="true"/>
+</session>

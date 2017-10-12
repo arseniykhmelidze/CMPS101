@@ -1,0 +1,26 @@
+20:43:22 **** Build of configuration Debug for project pa2 ****
+make all 
+Building file: ../Lex.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Lex.d" -MT"Lex.o" -o "Lex.o" "../Lex.c"
+In file included from ../Lex.c:13:
+../List.h:23:5: error: conflicting types for 'index'
+int index(List L);
+    ^
+/usr/include/strings.h:73:7: note: previous declaration is here
+char    *index(const char *, int) __POSIX_C_DEPRECATED(200112L);
+         ^
+../Lex.c:87:26: error: too few arguments to function call, expected 2, have 1
+        while (index(list) >= 0)
+               ~~~~~     ^
+../Lex.c:93:30: error: too few arguments to function call, expected 2, have 1
+                if(index(list) == 0)
+                   ~~~~~     ^
+../Lex.c:105:22: error: too few arguments to function call, expected 2, have 1
+        if(index(list) < 0)
+           ~~~~~     ^
+4 errors generated.
+make: *** [Lex.o] Error 1
+
+20:43:22 Build Finished (took 124ms)
+

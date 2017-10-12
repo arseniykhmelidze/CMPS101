@@ -1,0 +1,23 @@
+Class: CMPS 101
+Instructor: Prof. Patrick Tantalo
+Assignment: PA5
+Student: Arseniy Khmelidze (akhmelid)
+Date created: 03/12/17
+Copyright © 2017 Arseniy Khmelidze. All rights reserved. 
+
+
+Brief Description of the assignment: The purpose of this assignment is to implement a Graph module in C that implements Depth First Search (DFS). 
+This project will use Graph module to find the strongly connected components of a directed graph. 
+
+
+Files Submitted:
+1) List.c : This module will be a bi-directional queue that includes a “cursor” to be used for iteration between the elements in the list. Explicit algorithm of every f-n from List.h
+2) List.h : Header file for List.c. Module with all List functions in implicit form
+3) Graph.c : The module creates a Graph using the DFS algorithm. Modified for PA5 in order to implement DFS
+4) Graph.h : Header file for Graph.c. Module with all functions in implicit form. Modified for PA5 in order to implement DFS
+5) GraphTest.c : Test file for the Graph ADT
+6) FindComponents.c : Client program for Graph.h
+5) Makefile: file that creates an executable jar file called FindComponents. Provided in the examples folder by the professor 
+6) README: Current file. Brief details about the project and its creator. Edited by the programmer
+
+UPD: The application was checked for memory leaks, none detected.

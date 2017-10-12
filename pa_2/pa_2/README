@@ -1,0 +1,21 @@
+Class: CMPS 101
+Instructor: Prof. Patrick Tantalo
+Assignment: PA2
+Student: Arseniy Khmelidze (akhmelid)
+Date created: 01/26/17
+Copyright © 2017 Arseniy Khmelidze. All rights reserved.
+
+Brief Description of the assignment: The main goal of the project is to create an Integer List ADT that will be used to alphabetize the lines in a file. 
+This assignment is highly useful since it would be necessary for the future assignments in the quarter.
+
+Now, in PA 2 the objective was to create the same ADT but in C language.
+
+Files Submitted:
+1) List.c : This module will be a bi-directional queue that includes a “cursor” to be used for iteration between the elements in the list. Explicit algorithm of every f-n from List.h
+2) List.h : Header file for List.c. Module with all List functions in implicit form
+3) Lex.c: Main file. Lex will take two command line arguments giving the names of an input file and an output file and will read and write the list according to the List algorithm.
+4) ListClient.c : Main test file provided by the instructor
+5) Makefile: file that creates an executable jar file called Lex. Unchanged 
+6) README: Current file. Brief details about the project and its creator. Edited by the programmer
+
+UPD: The application was checked for memory leaks, none detected.

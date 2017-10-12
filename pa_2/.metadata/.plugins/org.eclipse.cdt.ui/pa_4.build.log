@@ -1,0 +1,17 @@
+19:18:29 **** Incremental Build of configuration Debug for project pa_4 ****
+make all 
+Building target: pa_4
+Invoking: MacOS X C Linker
+gcc  -o "pa_4"  ./FindPath.o ./Graph.o ./GraphTest.o ./List.o ./ListClient.o   
+duplicate symbol _main in:
+    ./FindPath.o
+    ./GraphTest.o
+duplicate symbol _main in:
+    ./FindPath.o
+    ./ListClient.o
+ld: 2 duplicate symbols for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [pa_4] Error 1
+
+19:18:29 Build Finished (took 388ms)
+

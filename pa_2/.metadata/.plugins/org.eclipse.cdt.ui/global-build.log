@@ -1,0 +1,509 @@
+20:38:10 **** Build of configuration Debug for project pa2 ****
+make all 
+Building file: ../Lex.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Lex.d" -MT"Lex.o" -o "Lex.o" "../Lex.c"
+In file included from ../Lex.c:13:
+../List.h:23:5: error: conflicting types for 'index'
+int index(List L);
+    ^
+/usr/include/strings.h:73:7: note: previous declaration is here
+char    *index(const char *, int) __POSIX_C_DEPRECATED(200112L);
+         ^
+../Lex.c:87:26: error: too few arguments to function call, expected 2, have 1
+        while (index(list) >= 0)
+               ~~~~~     ^
+../Lex.c:93:30: error: too few arguments to function call, expected 2, have 1
+                if(index(list) == 0)
+                   ~~~~~     ^
+../Lex.c:105:22: error: too few arguments to function call, expected 2, have 1
+        if(index(list) < 0)
+           ~~~~~     ^
+4 errors generated.
+make: *** [Lex.o] Error 1
+20:38:39 **** Incremental Build of configuration Debug for project pa2 ****
+make all 
+Building file: ../Lex.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Lex.d" -MT"Lex.o" -o "Lex.o" "../Lex.c"
+In file included from ../Lex.c:13:
+../List.h:23:5: error: conflicting types for 'index'
+int index(List L);
+    ^
+/usr/include/strings.h:73:7: note: previous declaration is here
+char    *index(const char *, int) __POSIX_C_DEPRECATED(200112L);
+         ^
+../Lex.c:87:26: error: too few arguments to function call, expected 2, have 1
+        while (index(list) >= 0)
+               ~~~~~     ^
+../Lex.c:93:30: error: too few arguments to function call, expected 2, have 1
+                if(index(list) == 0)
+                   ~~~~~     ^
+../Lex.c:105:22: error: too few arguments to function call, expected 2, have 1
+        if(index(list) < 0)
+           ~~~~~     ^
+4 errors generated.
+make: *** [Lex.o] Error 1
+20:39:09 **** Incremental Build of configuration Debug for project pa2 ****
+make all 
+Building file: ../Lex.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Lex.d" -MT"Lex.o" -o "Lex.o" "../Lex.c"
+In file included from ../Lex.c:13:
+../List.h:23:5: error: conflicting types for 'index'
+int index(List L);
+    ^
+/usr/include/strings.h:73:7: note: previous declaration is here
+char    *index(const char *, int) __POSIX_C_DEPRECATED(200112L);
+         ^
+../Lex.c:87:26: error: too few arguments to function call, expected 2, have 1
+        while (index(list) >= 0)
+               ~~~~~     ^
+../Lex.c:93:30: error: too few arguments to function call, expected 2, have 1
+                if(index(list) == 0)
+                   ~~~~~     ^
+../Lex.c:105:22: error: too few arguments to function call, expected 2, have 1
+        if(index(list) < 0)
+           ~~~~~     ^
+4 errors generated.
+make: *** [Lex.o] Error 1
+20:40:27 **** Incremental Build of configuration Debug for project pa2 ****
+make all 
+Building file: ../Lex.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Lex.d" -MT"Lex.o" -o "Lex.o" "../Lex.c"
+In file included from ../Lex.c:13:
+../List.h:23:5: error: conflicting types for 'index'
+int index(List L);
+    ^
+/usr/include/strings.h:73:7: note: previous declaration is here
+char    *index(const char *, int) __POSIX_C_DEPRECATED(200112L);
+         ^
+../Lex.c:87:26: error: too few arguments to function call, expected 2, have 1
+        while (index(list) >= 0)
+               ~~~~~     ^
+../Lex.c:93:30: error: too few arguments to function call, expected 2, have 1
+                if(index(list) == 0)
+                   ~~~~~     ^
+../Lex.c:105:22: error: too few arguments to function call, expected 2, have 1
+        if(index(list) < 0)
+           ~~~~~     ^
+4 errors generated.
+make: *** [Lex.o] Error 1
+20:40:41 **** Incremental Build of configuration Debug for project pa2 ****
+make all 
+Building file: ../Lex.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Lex.d" -MT"Lex.o" -o "Lex.o" "../Lex.c"
+In file included from ../Lex.c:13:
+../List.h:23:5: error: conflicting types for 'index'
+int index(List L);
+    ^
+/usr/include/strings.h:73:7: note: previous declaration is here
+char    *index(const char *, int) __POSIX_C_DEPRECATED(200112L);
+         ^
+../Lex.c:87:26: error: too few arguments to function call, expected 2, have 1
+        while (index(list) >= 0)
+               ~~~~~     ^
+../Lex.c:93:30: error: too few arguments to function call, expected 2, have 1
+                if(index(list) == 0)
+                   ~~~~~     ^
+../Lex.c:105:22: error: too few arguments to function call, expected 2, have 1
+        if(index(list) < 0)
+           ~~~~~     ^
+4 errors generated.
+make: *** [Lex.o] Error 1
+20:40:48 **** Incremental Build of configuration Debug for project pa2 ****
+make all 
+Building file: ../Lex.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Lex.d" -MT"Lex.o" -o "Lex.o" "../Lex.c"
+In file included from ../Lex.c:13:
+../List.h:23:5: error: conflicting types for 'index'
+int index(List L);
+    ^
+/usr/include/strings.h:73:7: note: previous declaration is here
+char    *index(const char *, int) __POSIX_C_DEPRECATED(200112L);
+         ^
+../Lex.c:87:26: error: too few arguments to function call, expected 2, have 1
+        while (index(list) >= 0)
+               ~~~~~     ^
+../Lex.c:93:30: error: too few arguments to function call, expected 2, have 1
+                if(index(list) == 0)
+                   ~~~~~     ^
+../Lex.c:105:22: error: too few arguments to function call, expected 2, have 1
+        if(index(list) < 0)
+           ~~~~~     ^
+4 errors generated.
+make: *** [Lex.o] Error 1
+20:41:54 **** Incremental Build of configuration Debug for project pa2 ****
+make all 
+Building file: ../Lex.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Lex.d" -MT"Lex.o" -o "Lex.o" "../Lex.c"
+In file included from ../Lex.c:13:
+../List.h:23:5: error: conflicting types for 'index'
+int index(List L);
+    ^
+/usr/include/strings.h:73:7: note: previous declaration is here
+char    *index(const char *, int) __POSIX_C_DEPRECATED(200112L);
+         ^
+../Lex.c:87:26: error: too few arguments to function call, expected 2, have 1
+        while (index(list) >= 0)
+               ~~~~~     ^
+../Lex.c:93:30: error: too few arguments to function call, expected 2, have 1
+                if(index(list) == 0)
+                   ~~~~~     ^
+../Lex.c:105:22: error: too few arguments to function call, expected 2, have 1
+        if(index(list) < 0)
+           ~~~~~     ^
+4 errors generated.
+make: *** [Lex.o] Error 1
+20:42:32 **** Incremental Build of configuration Debug for project pa2 ****
+make all 
+Building file: ../Lex.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Lex.d" -MT"Lex.o" -o "Lex.o" "../Lex.c"
+In file included from ../Lex.c:13:
+../List.h:23:5: error: conflicting types for 'index'
+int index(List L);
+    ^
+/usr/include/strings.h:73:7: note: previous declaration is here
+char    *index(const char *, int) __POSIX_C_DEPRECATED(200112L);
+         ^
+../Lex.c:87:26: error: too few arguments to function call, expected 2, have 1
+        while (index(list) >= 0)
+               ~~~~~     ^
+../Lex.c:93:30: error: too few arguments to function call, expected 2, have 1
+                if(index(list) == 0)
+                   ~~~~~     ^
+../Lex.c:105:22: error: too few arguments to function call, expected 2, have 1
+        if(index(list) < 0)
+           ~~~~~     ^
+4 errors generated.
+make: *** [Lex.o] Error 1
+20:43:18 **** Clean-only build of configuration Debug for project pa2 ****
+make clean 
+rm -rf  ./Lex.o ./List.o ./ListClient.o  ./Lex.d ./List.d ./ListClient.d  pa2
+ 
+20:43:22 **** Build of configuration Debug for project pa2 ****
+make all 
+Building file: ../Lex.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Lex.d" -MT"Lex.o" -o "Lex.o" "../Lex.c"
+In file included from ../Lex.c:13:
+../List.h:23:5: error: conflicting types for 'index'
+int index(List L);
+    ^
+/usr/include/strings.h:73:7: note: previous declaration is here
+char    *index(const char *, int) __POSIX_C_DEPRECATED(200112L);
+         ^
+../Lex.c:87:26: error: too few arguments to function call, expected 2, have 1
+        while (index(list) >= 0)
+               ~~~~~     ^
+../Lex.c:93:30: error: too few arguments to function call, expected 2, have 1
+                if(index(list) == 0)
+                   ~~~~~     ^
+../Lex.c:105:22: error: too few arguments to function call, expected 2, have 1
+        if(index(list) < 0)
+           ~~~~~     ^
+4 errors generated.
+make: *** [Lex.o] Error 1
+18:15:16 **** Build of configuration Debug for project pa_4 ****
+make all 
+Building file: ../FindPath.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"FindPath.d" -MT"FindPath.o" -o "FindPath.o" "../FindPath.c"
+In file included from ../FindPath.c:12:
+In file included from ../Graph.h:11:
+../List.h:24:5: warning: incompatible redeclaration of library function 'index' [-Wincompatible-library-redeclaration]
+int index(List L);
+    ^
+../List.h:24:5: note: 'index' is a builtin with type 'char *(const char *, int)'
+1 warning generated.
+Finished building: ../FindPath.c
+ 
+Building file: ../Graph.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Graph.d" -MT"Graph.o" -o "Graph.o" "../Graph.c"
+In file included from ../Graph.c:11:
+In file included from ../Graph.h:11:
+../List.h:24:5: warning: incompatible redeclaration of library function 'index' [-Wincompatible-library-redeclaration]
+int index(List L);
+    ^
+../List.h:24:5: note: 'index' is a builtin with type 'char *(const char *, int)'
+1 warning generated.
+Finished building: ../Graph.c
+ 
+Building file: ../GraphTest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GraphTest.d" -MT"GraphTest.o" -o "GraphTest.o" "../GraphTest.c"
+In file included from ../GraphTest.c:11:
+In file included from ../Graph.h:11:
+../List.h:24:5: warning: incompatible redeclaration of library function 'index' [-Wincompatible-library-redeclaration]
+int index(List L);
+    ^
+../List.h:24:5: note: 'index' is a builtin with type 'char *(const char *, int)'
+1 warning generated.
+Finished building: ../GraphTest.c
+ 
+Building file: ../List.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"List.d" -MT"List.o" -o "List.o" "../List.c"
+In file included from ../List.c:11:
+../List.h:24:5: warning: incompatible redeclaration of library function 'index' [-Wincompatible-library-redeclaration]
+int index(List L);
+    ^
+../List.h:24:5: note: 'index' is a builtin with type 'char *(const char *, int)'
+1 warning generated.
+Finished building: ../List.c
+ 
+Building target: pa_4
+Invoking: MacOS X C Linker
+gcc  -o "pa_4"  ./FindPath.o ./Graph.o ./GraphTest.o ./List.o   
+duplicate symbol _main in:
+    ./FindPath.o
+    ./GraphTest.o
+ld: 1 duplicate symbol for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [pa_4] Error 1
+18:44:29 **** Incremental Build of configuration Debug for project pa_4 ****
+make all 
+Building file: ../FindPath.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"FindPath.d" -MT"FindPath.o" -o "FindPath.o" "../FindPath.c"
+In file included from ../FindPath.c:12:
+In file included from ../Graph.h:11:
+../List.h:24:5: warning: incompatible redeclaration of library function 'index' [-Wincompatible-library-redeclaration]
+int index(List L);
+    ^
+../List.h:24:5: note: 'index' is a builtin with type 'char *(const char *, int)'
+1 warning generated.
+Finished building: ../FindPath.c
+ 
+Building target: pa_4
+Invoking: MacOS X C Linker
+gcc  -o "pa_4"  ./FindPath.o ./Graph.o ./GraphTest.o ./List.o   
+duplicate symbol _main in:
+    ./FindPath.o
+    ./GraphTest.o
+ld: 1 duplicate symbol for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [pa_4] Error 1
+18:47:12 **** Incremental Build of configuration Debug for project pa_4 ****
+make all 
+Building file: ../FindPath.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"FindPath.d" -MT"FindPath.o" -o "FindPath.o" "../FindPath.c"
+In file included from ../FindPath.c:12:
+In file included from ../Graph.h:11:
+../List.h:24:5: warning: incompatible redeclaration of library function 'index' [-Wincompatible-library-redeclaration]
+int index(List L);
+    ^
+../List.h:24:5: note: 'index' is a builtin with type 'char *(const char *, int)'
+1 warning generated.
+Finished building: ../FindPath.c
+ 
+Building file: ../Graph.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Graph.d" -MT"Graph.o" -o "Graph.o" "../Graph.c"
+In file included from ../Graph.c:11:
+In file included from ../Graph.h:11:
+../List.h:24:5: warning: incompatible redeclaration of library function 'index' [-Wincompatible-library-redeclaration]
+int index(List L);
+    ^
+../List.h:24:5: note: 'index' is a builtin with type 'char *(const char *, int)'
+1 warning generated.
+Finished building: ../Graph.c
+ 
+Building file: ../GraphTest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GraphTest.d" -MT"GraphTest.o" -o "GraphTest.o" "../GraphTest.c"
+In file included from ../GraphTest.c:11:
+In file included from ../Graph.h:11:
+../List.h:24:5: warning: incompatible redeclaration of library function 'index' [-Wincompatible-library-redeclaration]
+int index(List L);
+    ^
+../List.h:24:5: note: 'index' is a builtin with type 'char *(const char *, int)'
+1 warning generated.
+Finished building: ../GraphTest.c
+ 
+Building file: ../List.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"List.d" -MT"List.o" -o "List.o" "../List.c"
+In file included from ../List.c:11:
+../List.h:24:5: warning: incompatible redeclaration of library function 'index' [-Wincompatible-library-redeclaration]
+int index(List L);
+    ^
+../List.h:24:5: note: 'index' is a builtin with type 'char *(const char *, int)'
+1 warning generated.
+Finished building: ../List.c
+ 
+Building target: pa_4
+Invoking: MacOS X C Linker
+gcc  -o "pa_4"  ./FindPath.o ./Graph.o ./GraphTest.o ./List.o   
+duplicate symbol _main in:
+    ./FindPath.o
+    ./GraphTest.o
+ld: 1 duplicate symbol for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [pa_4] Error 1
+17:45:54 **** Incremental Build of configuration Debug for project pa_4 ****
+make all 
+Building file: ../FindPath.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"FindPath.d" -MT"FindPath.o" -o "FindPath.o" "../FindPath.c"
+In file included from ../FindPath.c:12:
+In file included from ../Graph.h:11:
+../List.h:24:5: warning: incompatible redeclaration of library function 'index' [-Wincompatible-library-redeclaration]
+int index(List L);
+    ^
+../List.h:24:5: note: 'index' is a builtin with type 'char *(const char *, int)'
+../FindPath.c:31:51: warning: data argument not used by format string [-Wformat-extra-args]
+        printf("Unable to open read file(s). \n", argv[1]);
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ^
+../FindPath.c:37:51: warning: data argument not used by format string [-Wformat-extra-args]
+        printf("Unable to open write file(s).\n", argv[2]);
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ^
+3 warnings generated.
+Finished building: ../FindPath.c
+ 
+Building file: ../Graph.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Graph.d" -MT"Graph.o" -o "Graph.o" "../Graph.c"
+In file included from ../Graph.c:11:
+In file included from ../Graph.h:11:
+../List.h:24:5: warning: incompatible redeclaration of library function 'index' [-Wincompatible-library-redeclaration]
+int index(List L);
+    ^
+../List.h:24:5: note: 'index' is a builtin with type 'char *(const char *, int)'
+1 warning generated.
+Finished building: ../Graph.c
+ 
+Building file: ../GraphTest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GraphTest.d" -MT"GraphTest.o" -o "GraphTest.o" "../GraphTest.c"
+In file included from ../GraphTest.c:11:
+In file included from ../Graph.h:11:
+../List.h:24:5: warning: incompatible redeclaration of library function 'index' [-Wincompatible-library-redeclaration]
+int index(List L);
+    ^
+../List.h:24:5: note: 'index' is a builtin with type 'char *(const char *, int)'
+1 warning generated.
+Finished building: ../GraphTest.c
+ 
+Building file: ../List.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"List.d" -MT"List.o" -o "List.o" "../List.c"
+In file included from ../List.c:11:
+../List.h:24:5: warning: incompatible redeclaration of library function 'index' [-Wincompatible-library-redeclaration]
+int index(List L);
+    ^
+../List.h:24:5: note: 'index' is a builtin with type 'char *(const char *, int)'
+../List.c:539:19: warning: incompatible pointer types assigning to 'List' (aka 'struct ListObject *') from 'struct NodeObject *' [-Wincompatible-pointer-types]
+        temp_list = temp_node -> next;
+                  ^ ~~~~~~~~~~~~~~~~~
+2 warnings generated.
+Finished building: ../List.c
+ 
+Building target: pa_4
+Invoking: MacOS X C Linker
+gcc  -o "pa_4"  ./FindPath.o ./Graph.o ./GraphTest.o ./List.o   
+duplicate symbol _main in:
+    ./FindPath.o
+    ./GraphTest.o
+ld: 1 duplicate symbol for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [pa_4] Error 1
+19:17:42 **** Incremental Build of configuration Debug for project pa_4 ****
+make all 
+Building file: ../FindPath.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"FindPath.d" -MT"FindPath.o" -o "FindPath.o" "../FindPath.c"
+In file included from ../FindPath.c:12:
+In file included from ../Graph.h:11:
+../List.h:24:5: warning: incompatible redeclaration of library function 'index' [-Wincompatible-library-redeclaration]
+int index(List L);
+    ^
+../List.h:24:5: note: 'index' is a builtin with type 'char *(const char *, int)'
+../FindPath.c:31:51: warning: data argument not used by format string [-Wformat-extra-args]
+        printf("Unable to open read file(s). \n", argv[1]);
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ^
+../FindPath.c:37:51: warning: data argument not used by format string [-Wformat-extra-args]
+        printf("Unable to open write file(s).\n", argv[2]);
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ^
+3 warnings generated.
+Finished building: ../FindPath.c
+ 
+Building file: ../Graph.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Graph.d" -MT"Graph.o" -o "Graph.o" "../Graph.c"
+In file included from ../Graph.c:11:
+In file included from ../Graph.h:11:
+../List.h:24:5: warning: incompatible redeclaration of library function 'index' [-Wincompatible-library-redeclaration]
+int index(List L);
+    ^
+../List.h:24:5: note: 'index' is a builtin with type 'char *(const char *, int)'
+1 warning generated.
+Finished building: ../Graph.c
+ 
+Building file: ../GraphTest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GraphTest.d" -MT"GraphTest.o" -o "GraphTest.o" "../GraphTest.c"
+In file included from ../GraphTest.c:11:
+In file included from ../Graph.h:11:
+../List.h:24:5: warning: incompatible redeclaration of library function 'index' [-Wincompatible-library-redeclaration]
+int index(List L);
+    ^
+../List.h:24:5: note: 'index' is a builtin with type 'char *(const char *, int)'
+1 warning generated.
+Finished building: ../GraphTest.c
+ 
+Building file: ../List.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"List.d" -MT"List.o" -o "List.o" "../List.c"
+In file included from ../List.c:12:
+../List.h:24:5: warning: incompatible redeclaration of library function 'index' [-Wincompatible-library-redeclaration]
+int index(List L);
+    ^
+../List.h:24:5: note: 'index' is a builtin with type 'char *(const char *, int)'
+1 warning generated.
+Finished building: ../List.c
+ 
+Building file: ../ListClient.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ListClient.d" -MT"ListClient.o" -o "ListClient.o" "../ListClient.c"
+In file included from ../ListClient.c:9:
+../List.h:24:5: warning: incompatible redeclaration of library function 'index' [-Wincompatible-library-redeclaration]
+int index(List L);
+    ^
+../List.h:24:5: note: 'index' is a builtin with type 'char *(const char *, int)'
+1 warning generated.
+Finished building: ../ListClient.c
+ 
+Building target: pa_4
+Invoking: MacOS X C Linker
+gcc  -o "pa_4"  ./FindPath.o ./Graph.o ./GraphTest.o ./List.o ./ListClient.o   
+duplicate symbol _main in:
+    ./FindPath.o
+    ./GraphTest.o
+duplicate symbol _main in:
+    ./FindPath.o
+    ./ListClient.o
+ld: 2 duplicate symbols for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [pa_4] Error 1
+19:18:29 **** Incremental Build of configuration Debug for project pa_4 ****
+make all 
+Building target: pa_4
+Invoking: MacOS X C Linker
+gcc  -o "pa_4"  ./FindPath.o ./Graph.o ./GraphTest.o ./List.o ./ListClient.o   
+duplicate symbol _main in:
+    ./FindPath.o
+    ./GraphTest.o
+duplicate symbol _main in:
+    ./FindPath.o
+    ./ListClient.o
+ld: 2 duplicate symbols for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [pa_4] Error 1
